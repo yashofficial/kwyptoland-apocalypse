@@ -7,9 +7,11 @@ export default function Header() {
 <img src="img/logo.svg" width="auto" height="36" alt="KwyptoLand logo" />
 </div>
 <div id="menu-header">
+<div className='social-icons'>
 <a href="https://discord.com/invite/4pB2KZYvrm" target="_blank" rel="noreferrer" ><img src="/img/discord.svg" alt="" /></a>
 <a href="https://twitter.com/KwyptoLand" target="_blank" rel="noreferrer" ><img src="/img/twitter.svg" alt="" /></a>
 <a href="https://www.instagram.com/kwyptoland/" target="_blank" rel="noreferrer"><img src="/img/instagram.svg" alt="" /></a>
+</div>
 <a onClick="scrollto('#home');" rel="noopener">Home</a>
 <a onClick="scrollto('#about');" rel="noopener">About</a>
 <a onClick="scrollto('#roadmap');" rel="noopener">Roadmap</a>
