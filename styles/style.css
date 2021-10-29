@@ -225,7 +225,7 @@ a {
     vertical-align: middle;
 }
 #menu-header > a.yellow-button {line-height: 60px;display: block;width: 240px;text-align: center;margin: 0 0 0 30px;min-height: 60px;}
-#menu-header .social-icons {position: fixed;top: 50%;left: 0;transform: translateY(-50%);z-index: 99;}
+#menu-header .social-icons {position: fixed;top: 50%;left: 0;transform: translateY(-50%);z-index: 99;display: none;}
 #menu-header .social-icons a {display: block;margin: 0px 0px;padding: 10px 5px;background: #7a1128;line-height: 1;transition: all .3s;}
 #menu-header .social-icons a:not(:last-child) {border-bottom: 1px solid #600c1f;}
 #menu-header .social-icons a img {width: 35px;}

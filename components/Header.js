@@ -17,7 +17,7 @@ export default function Header() {
 <a onClick="scrollto('#roadmap');" rel="noopener">Roadmap</a>
 <a onClick="scrollto('#team');" rel="noopener">Team</a>
 <a onClick="scrollto('#mint');" rel="noopener">Mint</a>
-<a href="https://metamask.io" target="_blank" rel="noreferrer" className='enableEthereumButton yellow-button' rel="noopener">Connect Wallet</a>
+<a href="https://metamask.io" target="_blank" rel="noreferrer" className='enableEthereumButton yellow-button'>Connect Wallet</a>
 </div>
 </div>
 </div>
