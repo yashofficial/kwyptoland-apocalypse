@@ -207,7 +207,7 @@ a {
     align-items: center;
 }
 #menu-header > a:nth-child(1), #menu-header > a:nth-child(2) {
-    margin-right: 20px;
+    margin-right: 45px;
 }
 #menu-header > a {
     line-height: 18px;
