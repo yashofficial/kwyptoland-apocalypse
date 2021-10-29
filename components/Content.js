@@ -16,7 +16,7 @@ Public sale 21st Nov 7pm est</p>
 </div>
 </div>  
 </div>
-<video controls="" autoplay="" loop="" name="media" muted><source src="img/apocalypse-banner.mp4" type="video/mp4" /></video>
+<video controls="" autoPlay="" loop="" name="media" muted><source src="img/apocalypse-banner.mp4" type="video/mp4" /></video>
 </div>
 <div id="content-area" className='wrapper'>
 <div className='container' id="about">
@@ -24,11 +24,11 @@ Public sale 21st Nov 7pm est</p>
 <p data-aos="fade-up" data-aos-delay="300">Kwyptoland is an innovative sandbox collective that is created by a rag tag team of crypto enthusiasts, up-and-coming artists, tech geeks, and you, our community member. We’re made for everyone that creates and aims to be building projects in the crypto world.</p>
 <p data-aos="fade-up" data-aos-delay="500">Our team came from all over the world, with different credentials and passions but with the same shared goal - <strong>future proofing our world</strong>.</p>
 <p data-aos="fade-up" data-aos-delay="700">Our mission is to help and bring people together to create something amazing for humanity, and there is nothing too small or too large for us.</p>
-<a onclick="scrollto('#team');" className='yellow-button dark-bdr' data-aos="fade-up" data-aos-delay="900">Meet The Team</a>
+<a onClick="scrollto('#team');" className='yellow-button dark-bdr' data-aos="fade-up" data-aos-delay="900">Meet The Team</a>
 <div className='space-box'></div>
 <h2 data-aos="fade-up">What is the Army of Apocalypse?</h2>
-<p data-aos="fade-up" data-aos-delay="300">Army of Apocalypse &#40;AoA&#41; is created by our project lead, Chels, and brought to life by our talented artist, Mert Ozel. Mert is an up-and-coming artist in Turkey.</p>
-<p data-aos="fade-up" data-aos-delay="500">This collection is inspired by the four horsemen of the apocalypse in the bible &#40;book of Revelation&#41; and our current state of the world in 2021 post Covid-19, a pandemic that just hit Earth with terrifying infection rates, authoritative governments, never-ending lockdowns, and uncertainty for mankind’s future.</p>
+<p data-aos="fade-up" data-aos-delay="300">Army of Apocalypse `&#40;`AoA`&#41;` is created by our project lead, Chels, and brought to life by our talented artist, Mert Ozel. Mert is an up-and-coming artist in Turkey.</p>
+<p data-aos="fade-up" data-aos-delay="500">This collection is inspired by the four horsemen of the apocalypse in the bible `&#40;`book of Revelation&#41; and our current state of the world in 2021 post Covid-19, a pandemic that just hit Earth with terrifying infection rates, authoritative governments, never-ending lockdowns, and uncertainty for mankind’s future.</p>
 <p data-aos="fade-up" data-aos-delay="700">The wordings on some of the horsemen’s mouth represents a factor of destruction, be it internal or external, body or soul. Let’s face it - we all have our insecurities and fears. That is what makes us unique. What is yours?</p>
 <p data-aos="fade-up" data-aos-delay="900">The Army of Apocalypse collection is nominated for multiple NFT awards and also acts as a speed booster for your future football team as destruction is always swift!</p>
 </div>
@@ -75,10 +75,10 @@ Public sale 21st Nov 7pm est</p>
 <h2 data-aos="fade-up" data-aos-delay="200">Mint your Army of 
 Apocalypse for only 0.2 eth
 </h2>
-<p data-aos="fade-up" data-aos-delay="400">Automatic whitelist for every KwyptoKado &#40;KK&#41; holder.
+<p data-aos="fade-up" data-aos-delay="400">Automatic whitelist for every KwyptoKado `&#40;`K`&#41;` holder.
 – you can mint now till launch at a discounted rate! Save at least $200/mint!
 </p>
-<p data-aos="fade-up" data-aos-delay="600">FREE OG player &#40;earn passive income from Ether Footy&#41; airdrop for holders of KK and AoA.</p>
+<p data-aos="fade-up" data-aos-delay="600">FREE OG player `&#40;`earn passive income from Ether Footy&#41; airdrop for holders of KK and AoA.</p>
 <p data-aos="fade-up" data-aos-delay="800">Public sale Nov 21st 7pm EST @ 0.2eth.</p>
 <div className='countdown-box' data-aos="fade-up" data-aos-delay="1000">
 <a href="https://discord.com/invite/4pB2KZYvrm" target="_blank" rel="noreferrer" className='yellow-button'>Join Discord</a>
