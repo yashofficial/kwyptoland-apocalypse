@@ -16,7 +16,7 @@ Public sale 21st Nov 7pm est</p>
 </div>
 </div>  
 </div>
-<video controls="" autoPlay="" loop="" name="media" muted><source src="img/apocalypse-banner.mp4" type="video/mp4" /></video>
+<video controls="" name="media" autoPlay loop muted><source src="img/apocalypse-banner.mp4" type="video/mp4" /></video>
 </div>
 <div id="content-area" className='wrapper'>
 <div className='container' id="about">
@@ -93,6 +93,103 @@ Apocalypse for only 0.2 eth
 </div>
 </div>
 </div>
+
+<div className='wrapper'>
+            <div className='container' style={{'font-size': '13px', 'font-weight': '300'}}>
+<h2 data-aos="fade-up">Roadmap</h2>
+<p data-aos="fade-up" data-aos-delay="300">Each Army of Apocalypse grants you the exclusive lifetime privilege of first access to all of Kwyptoland, where you can hang out with your fun family and have first dips on projects, airdrops, and benefits.</p>
+
+                <div id="roadmap">
+                    <div className='roadmap-left' style={{'display': 'flex', 'flex-basis': '50%'}}>
+                        <div className='roadmap-point' data-aos="fade-up">
+
+                            <div className='border-top'><div></div></div>
+
+                            <h3>October 27th</h3>
+                            <div>
+                                <p>KwyptoKados – power booster – launched and SOLD OUT.</p>
+                                <p>$70,000 given away to one lucky KwyptoKado holder. $50,000 to the holder and $20,000 to the charity of their choice!</p>
+                                <img alt="" src="img/power.gif" />
+                            </div>
+                        </div>
+                        <div className='roadmap-point' data-aos="fade-up" data-aos-delay="400">
+
+                            <div className='border-top'><div></div></div>
+
+
+
+                            <h3>November 21st</h3>
+                            <div>
+                                <p>Exclusive KwyptoKado mint ends Nov 21st 4.59pm EST @ 0.15eth.</p>
+                                <p>Public sale Nov 21st 7pm EST @ 0.2eth.</p>
+                                <p>Every Army of Apocalypse holder enter a raffle automatically to win $100,000!</p>
+                            </div>
+                        </div>
+                        <div className='roadmap-point' data-aos="fade-up" data-aos-delay="400">
+
+                            <div className='border-top'><div></div></div>
+
+
+
+                            <h3>November 27nd</h3>
+                            <div>
+                                <p>To be announced.
+                                </p>
+                            </div>
+                        </div>
+                        <div className='roadmap-point' data-aos="fade-up" data-aos-delay="400">
+
+                            <div className='border-top'><div></div></div>
+
+
+
+                            <h3>December 15th</h3>
+                            <div>
+                                <p>First look into KwyptoLand’s play-to-earn NFT game where holders can play together, earn money through playing, betting, or passive income by holding only OG players!</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div className='roadmap-right' style={{'display': 'flex', 'flex-basis': '50%'}}>
+                        <div className='roadmap-point' data-aos="fade-up" data-aos-delay="400">
+                            <div className='border-top'><div></div></div>
+                            <h3>October 28th</h3>
+                            <div>
+                                <p>Announcement of the Army of Apocalypse. All holders of KwyptoKado is whitelisted automatically and can mint from now till launch and save at least $200 per mint!</p>
+                            </div>
+                        </div>
+                        <div className='roadmap-point' data-aos="fade-up" data-aos-delay="400">
+                            <div className='border-top'><div></div></div>
+                            <h3>November 24th</h3>
+                            <div>
+                                <p>Holders of both collections will be asked to create a wishlist of what they need/want for Christmas.</p>
+                            </div>
+                        </div>
+                        <div className='roadmap-point' data-aos="fade-up" data-aos-delay="400">
+                            <div className='border-top'><div></div></div>
+                            <h3>December 13th</h3>
+                            <div>
+                                <p>Free OG player airdrop for KwyptoKado (power) & mystery (speed) holders. Earn passive income through your player!</p>
+                            </div>
+
+                        </div>
+                        <div className='roadmap-point' data-aos="fade-up" data-aos-delay="400">
+                            <div className='border-top'><div></div></div>
+                            <h3>December 22-24</h3>
+                            <div>
+                                <p>Real-life airdrop of Christmas presents to holders.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+</div>
+
 <div className='wrapper' id='team'>
             <div className='container'>
                 <h2 data-aos="fade-up">Team</h2>
@@ -212,6 +309,51 @@ Apocalypse for only 0.2 eth
 
             </div>
 
+</div>
+<div className='wrapper' id="mint">
+    <div className='container'>
+        <h2 data-aos="fade-up">Fair Distribution & Efficient Minting</h2>
+        <p data-aos="fade-up" data-aos-delay="300"><strong>9999 Army of Apocalypse cost 0.2 Eth to mint, and will be revealed once 100% of the minting is complete.</strong></p>
+        <p data-aos="fade-up" data-aos-delay="500">Our minting is broken down to three phases to <strong>reduce gas wars:</strong></p>
+        <p data-aos="fade-up" data-aos-delay="700">Exclusive whitelisted (KwyptoKado holders) mint, Nov 21st 5pm EST @ 0.15eth.<br />
+            Public sale Nov 21st 7pm EST @ 0.2eth.</p>
+        <p data-aos="fade-up" data-aos-delay="900">Our smart contract is <strong>fully optimised to reduce transaction failure to save you in gas fees.</strong></p>
+    </div>
+</div>
+<div className='wrapper' id="join-family">
+    <div className='container'>
+        <h2 data-aos="fade-up">Join our fun family on discord for updates, giveaways, and AMA.</h2>
+        <div id="countdown" className='countdown' data-aos="fade-up" data-aos-delay="300">
+    <ul>
+      <li><span id="days1"></span>days</li>
+      <li><span id="hours1"></span>Hours</li>
+      <li><span id="minutes1"></span>Minutes</li>
+      <li><span id="seconds1"></span>Seconds</li>
+    </ul>
+</div>
+<div className='button-box' data-aos="fade-up" data-aos-delay="500">
+<a href="https://discord.com/invite/4pB2KZYvrm" target="_blank" rel="noreferrer" className='yellow-button'>DISCORD</a>
+<a href="https://twitter.com/KwyptoLand" target="_blank" rel="noreferrer" className='yellow-button'>TWITTER</a>
+<a href="https://www.instagram.com/kwyptoland/" target="_blank" rel="noreferrer" className='yellow-button'>INSTAGRAM</a>
+</div>
+    </div>
+</div>
+<div className='space-box'></div>
+<div className='wrapper' id="featured-in">
+    <div className='container'>
+        <h2 data-aos="fade-up">As featured In</h2>
+        <ul data-aos="fade-up" data-aos-delay="300">
+            <li><img src="img/yahoo.png" alt="" /></li>
+            <li><img src="img/ticker.png" alt="" /></li>
+            <li><img src="img/marketwatch.png" alt="" /></li>
+            <li><img src="img/googlenews.png" alt="" /></li>
+            <li><img src="img/benzinga.png" alt="" /></li>
+            <li><img src="img/bilibili.png" alt="" /></li>
+            <li><img src="img/foxnews@2x.png" alt="" /></li>
+            <li><img src="img/eastmoney.png" alt="" /></li>
+        </ul>
+        <p>And many more...</p>
+    </div>
 </div>
 </div>
   )

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
 import Content from '../components/Content'
+import Footer from '../components/Footer'
 import Jslibrary from '../components/jsLibrary'
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <Header />
       <Content />
+      <Footer />
       <Jslibrary />
     </div>
   )

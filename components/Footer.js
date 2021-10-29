@@ -1,4 +1,4 @@
-export default function Header() {
+export default function Footer() {
   return (
 <footer>
 <div className='space-box'></div>
@@ -13,6 +13,17 @@ export default function Header() {
 </div></li>
 </ul>
 </div>
+</div>
+<div id="myModal" className='modal'>
+  <div className='modal-content'>
+    <span className='close' id="close">&times;</span>
+    <p style={{'text-align': 'center', 'font-size': '2em'}}>Subscribe for VIP updates</p>
+        <input type="text" placeholder="email@domain.com" id="email" />
+        <br />
+        <a className='yellow-button' style={{'margin': '30px 0 0'}} onClick="subscribe();" id="subscribe">Subscribe</a>
+        <p id="status" style={{'margin-bottom': '20px', 'color': '#ffff2e', 'font-weight': '300'}}></p>
+  </div>
+
 </div>
     </footer>
   )

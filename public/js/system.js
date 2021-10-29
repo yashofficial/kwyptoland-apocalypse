@@ -1,41 +1,6 @@
-var upgradeTime;
-var seconds;
-
-var countdownTimer;
-
-function timer() {
-    var days        = Math.floor(seconds/24/60/60);
-    var hoursLeft   = Math.floor((seconds) - (days*86400));
-    var hours       = Math.floor(hoursLeft/3600);
-    var minutesLeft = Math.floor((hoursLeft) - (hours*3600));
-    var minutes     = Math.floor(minutesLeft/60);
-
-    var remainingSeconds = seconds % 60;
-
-    function pad(n) {
-        return (n < 10 ? "0" + n : n);
-    }
-
-    if(document.getElementById('days1')){
-        document.getElementById('days1').innerHTML    = pad(days);
-        document.getElementById('hours1').innerHTML   = pad(hours);
-        document.getElementById('minutes1').innerHTML = pad(minutes);
-        document.getElementById('seconds1').innerHTML = pad(remainingSeconds);
-    }
-
-    if(document.getElementById('days2')){
-        document.getElementById('days2').innerHTML    = pad(days);
-        document.getElementById('hours2').innerHTML   = pad(hours);
-        document.getElementById('minutes2').innerHTML = pad(minutes);
-        document.getElementById('seconds2').innerHTML = pad(remainingSeconds);
-    }
-
-    if (seconds > 0){
-        seconds--;   }
-
-    if (seconds2 > 0) {
-        seconds2--;    }
-}
+AOS.init({
+once: true,
+});
 
 const ethereumButton = document.querySelector('.enableEthereumButton');
 
@@ -135,6 +100,12 @@ jQuery(document).ready(function(){
 
 });
 
-
-
+jQuery(document).ready(function(){
+    jQuery('#myBtn').on( "click", function() {
+        jQuery('#myModal').show();
+    });
+    jQuery('#close').on( "click", function() {
+        jQuery('#myModal').hide();
+    });
+});
 

@@ -228,7 +228,7 @@ a {
 #menu-header .social-icons {position: fixed;top: 50%;left: 0;transform: translateY(-50%);z-index: 99;}
 #menu-header .social-icons a {display: block;margin: 0px 0px;padding: 10px 5px;background: #7a1128;line-height: 1;transition: all .3s;}
 #menu-header .social-icons a:not(:last-child) {border-bottom: 1px solid #600c1f;}
-#menu-header .social-icons a img {width: 20px;}
+#menu-header .social-icons a img {width: 35px;}
 #menu-header .social-icons a.discord-icon:hover, .social-icons a.discord-icon:focus {background-color: #7289d9;}
 #menu-header .social-icons a.twitter-icon:hover, .social-icons a.twitter-icon:focus {background-color: #1DA1F2;}
 #menu-header .social-icons a.instagram-icon:hover, .social-icons a.instagram-icon:focus {background-color: #8a3ab9;}
@@ -355,10 +355,7 @@ ROADMAP CSS OPEN
 }
 
 .roadmap-left .roadmap-point:last-child{
-    border-right: none;
-    height: 100px;
-    max-height: 100px;
-    min-height: 100px;
+    height: 231px;max-height: 231px;min-height: 100px;
 }
 
 .roadmap-right .roadmap-point{
@@ -366,7 +363,7 @@ ROADMAP CSS OPEN
 }
 
 .roadmap-right .roadmap-point:last-child{
-    border-left: none;
+    border-left: none;min-height: 300px;height: 300px;
 }
 /*------------------------
 ROADMAP CSS CLOSE
@@ -390,7 +387,7 @@ ROADMAP CSS CLOSE
 #featured-in ul li {width: 28%;margin: 0 5.3% 25px 0;}
 #featured-in ul li img {width: 100%;height: 100%;max-height: 200px;object-fit: contain;}
 #featured-in p {font-weight: 100;}
-#footer {background: url(/img/footer-bg.svg) no-repeat bottom center;background-size: 100%;padding-top: 4.3em;padding-bottom: 4.3em;}
+#footer {background: url(/img/footer-bg.svg) no-repeat bottom center;background-size: contain;padding-top: 4.3em;padding-bottom: 4.3em;}
 #footer ul {padding: 0;margin: 0 auto;list-style-type: none;display: flex;flex-wrap: wrap;flex-direction: row;justify-content: space-between;align-items: center;max-width: 95%;}
 #footer ul li {display: flex;flex-wrap: wrap;flex-direction: row;justify-content: space-between;align-items: center;}
 #footer ul li a {font-size: 12px;}

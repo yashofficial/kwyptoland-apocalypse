@@ -1,7 +1,7 @@
 export default function Header() {
   return (
 <header>
-<div className='wrapper'>
+<div className='wrapper' id="custom-header">
 <div className='container' id="header-holder">
 <div id="logo-holder">
 <img src="img/logo.svg" width="auto" height="36" alt="KwyptoLand logo" />
