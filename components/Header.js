@@ -1,3 +1,4 @@
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 export default function Header() {
   return (
 <header>
@@ -12,11 +13,11 @@ export default function Header() {
 <a href="https://twitter.com/KwyptoLand" target="_blank" rel="noreferrer" className='twitter-icon'><img src="/img/twitter.svg" alt="" /><span>Twitter</span></a>
 <a href="https://www.instagram.com/kwyptoland/" target="_blank" rel="noreferrer" className='instagram-icon'><img src="/img/instagram.svg" alt="" /><span>Instagram</span></a>
 </div>
-<a href="#home" rel="noopener">Home</a>
-<a href="#about" rel="noopener">About</a>
-<a onClick="scrollto('#roadmap');" rel="noopener">Roadmap</a>
-<a onClick="scrollto('#team');" rel="noopener">Team</a>
-<a onClick="scrollto('#mint');" rel="noopener">Mint</a>
+<AnchorLink href="#glitch-banner"  rel="noopener" data-id="home" className='active' scrollOffset="100">Home</AnchorLink>
+<AnchorLink href="#about"  rel="noopener" data-id="about" scrollOffset="100">About</AnchorLink>
+<AnchorLink href="#roadmap"  data-id="roadmap" scrollOffset="100" >Roadmap</AnchorLink>
+<AnchorLink href="#team"  rel="noopener" data-id="team">Team</AnchorLink>
+<AnchorLink href="#mint"  rel="noopener" data-id="mint">Mint</AnchorLink>
 <a href="https://metamask.io" target="_blank" rel="noreferrer" className='enableEthereumButton yellow-button'>Connect Wallet</a>
 </div>
 </div>

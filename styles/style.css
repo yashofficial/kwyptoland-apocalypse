@@ -217,6 +217,7 @@ a {
     text-transform: uppercase;
     font-size: 14px;
 }
+#menu-header > a.active {color: #FFFF05;}
 #menu-header > a:nth-child(3), #menu-header > a:nth-child(4), #menu-header > a:nth-child(5), #menu-header > a:nth-child(6), #menu-header > a:nth-child(7), #menu-header > a:nth-child(8) {
     margin-right: 45px;
 }
@@ -227,7 +228,8 @@ a {
 }
 #menu-header > a.yellow-button {line-height: 60px;display: block;width: 240px;text-align: center;margin: 0 0 0 30px;min-height: 60px;}
 #menu-header .social-icons {position: fixed;bottom: 25px;left: 10px;z-index: 99;background: #e7e8ea;padding: 10px 5px;border-radius: 50px;}
-#menu-header .social-icons a {display: block;margin: 0px 0px;padding: 0px;background: #7a1128;width: 45px;height: 45px;text-align: center;line-height: 60px;border-radius: 45px;transition: all .3s;position: relative;}
+#menu-header .social-icons a {display: block;margin: 0px 0px;padding: 0px;background: #7a1128;width: 45px;height: 45px;text-align: center;line-height: 55px;border-radius: 45px;transition: all .3s;position: relative;}
+#menu-header .social-icons a:last-child {line-height: 60px;}
 #menu-header .social-icons a span {z-index: -1;position: absolute;top: 15px;line-height: 1;background: #e7e8ea;padding: 5px 10px;color: #111;text-align: left;display: block;border-top-right-radius: 10px;border-bottom-right-radius: 10px;right: 0;width: 0px;opacity: 0;visibility: hidden;text-transform: uppercase;letter-spacing: .5px;transition: all .3s;}
 #menu-header .social-icons a:hover span {right: -90px;width: 90px;opacity: 1;visibility: visible;}
 #menu-header .social-icons a:not(:last-child) {margin-bottom: 5px;}
