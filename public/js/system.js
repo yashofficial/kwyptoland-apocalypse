@@ -1,7 +1,7 @@
 AOS.init({
 once: true,
 });
-$('.center').slick({
+jQuery('.center').slick({
   dots: true,
   infinite: true,
   slidesToShow: 3,
