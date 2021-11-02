@@ -9,6 +9,23 @@ jQuery('.center').slick({
   adaptiveHeight: true,
   autoplay: true,
   autoplaySpeed: 3000,
+  responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+      }
+    }
+  ]
 });
 jQuery(function(){
         jQuery('#menu-header').slicknav({

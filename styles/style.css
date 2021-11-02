@@ -434,6 +434,9 @@ Media Query
 .team-holder {justify-content: flex-start;}
 .team-member {flex-basis: 28%;margin: 0 1% 60px;}
 }
+@media screen and (max-width: 1199px) {
+#featured-in .center .slick-list .slick-track {display: block;}
+}
 @media screen and (max-width: 991px) {
 #header-holder .slicknav_menu {display: block;margin: 0 0 0 auto;}
 #header-holder #menu-header {display: none;}
@@ -484,6 +487,7 @@ footer .space-box:after {margin: 1em auto;}
 #countdown-area .countdown-box .countdown ul li span {font-size: 42px;}
 #footer {padding-top: 0em;}
 #footer .container {padding: 0px 0px;}
+#featured-in .center .slick-list .slick-slide {padding: 0 20px;}
 }
 @media screen and (max-width: 480px) {
 .container {padding: 0;}
@@ -503,10 +507,10 @@ div#glitch-banner .banner-caption {top: 50%;transform: translateY(-50%);}
 .roadmap-point > .border-top {width: 100%;}
 .roadmap-left .roadmap-point .border-top > div {width: 36px;height: 36px;top: -20px;}
 .roadmap-right .roadmap-point .border-top > div {right: 0;width: 36px;height: 36px;top: -20px;}
-
 .roadmap-left .roadmap-point h3, .roadmap-right .roadmap-point h3 {font-size: 20px;}
 #roadmap > div.roadmap-left > .roadmap-point > div:nth-child(3) {width: 90%;left: 0;}
 #roadmap > div.roadmap-right > .roadmap-point > div:nth-child(3) {width: 90%;}
+#featured-in .center .slick-list .slick-slide {padding: 0px 0px;}
 }
 @media screen and (max-width: 375px) {
 #header-holder .slicknav_menu .slicknav_nav .social-icons img {max-width: 30px;}
