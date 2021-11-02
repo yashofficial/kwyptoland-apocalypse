@@ -452,7 +452,8 @@ Media Query
 #header-holder .slicknav_menu .slicknav_nav > a.yellow-button:after {background-image: url(/img/dark-red-border.svg);}
 #header-holder .slicknav_menu .slicknav_nav .social-icons {display: flex;flex-wrap: wrap;align-items: center;justify-content: center;order: 12;width: 100%;border-top: 1px solid #660b1f;padding: 20px 0 0;margin: 20px auto 0;}
 #header-holder .slicknav_menu .slicknav_nav .social-icons:before {content: 'Follow us On:'; font: 14px;}
-#header-holder .slicknav_menu .slicknav_nav .social-icons a {margin: 0 20px;}
+#header-holder .slicknav_menu .slicknav_nav .social-icons a {margin: 0 20px;text-align: center;}
+#header-holder .slicknav_menu .slicknav_nav .social-icons a span {display: block;font-size: 12px;margin: 5px auto 0;font-weight: 600;}
 #header-holder .slicknav_menu .slicknav_nav .social-icons img {max-width: 35px;width: 100%;}
 #countdown-area .flex-box .content-container {width: 100%;margin: 0 auto;}
 .team-member {flex-basis: 48%;margin: 0 1% 60px;}
