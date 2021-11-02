@@ -258,7 +258,7 @@ div#glitch-banner .banner-caption h1 {font-size: 42px;color: #FFFF05;}
 div#glitch-banner .banner-caption h2 {font-size: 28px;color: #FFFF05;}
 div#glitch-banner .banner-caption .button-box {display: flex;flex-wrap: wrap;align-items: center;justify-content: space-between;text-align: center;max-width: 600px;width: 100%;margin: 3em auto 0 0;}
 div#glitch-banner .banner-caption .button-box .yellow-button {width: 100%;max-width: 240px;}
-div#glitch-banner video {width: 100%;height: 100%;}
+div#glitch-banner video {height: 100%;}
 div#content-area {background: #7a1128;}
 div#content-area h2 {font-size: 48px;color: #FFFF05;}
 div#content-area .yellow-button {margin: 3.5em 0 0;}
@@ -433,6 +433,9 @@ ROADMAP CSS CLOSE
 Media Query
 -----------------------------------------*/
 
+@media screen and (min-width: 1600px) {
+div#glitch-banner video {width: 100%;}
+}
 @media screen and (max-width: 1280px) {
 .team-holder {justify-content: flex-start;}
 .team-member {flex-basis: 28%;margin: 0 1% 60px;}
