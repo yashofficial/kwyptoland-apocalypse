@@ -82,11 +82,13 @@ Apocalypse for only 0.2 eth
 <p data-aos="fade-up" data-aos-delay="800">Public sale Nov 21st 7pm EST @ 0.2eth.</p>
 <div className='countdown-box' data-aos="fade-up" data-aos-delay="1000">
 <a href="https://discord.com/invite/4pB2KZYvrm" target="_blank" rel="noreferrer" className='yellow-button'>Join Discord</a>
-<div className='countdown'>
-    <div id="days1">0</div>
-    <div id="hours1">0</div>
-    <div id="minuts1">0</div>
-    <div id="seconds1">0</div>
+<div id="countdown" className='countdown'>
+    <ul>
+      <li><span id="days"></span>days</li>
+      <li><span id="hours"></span>Hours</li>
+      <li><span id="minutes"></span>Minutes</li>
+      <li><span id="seconds"></span>Seconds</li>
+    </ul>
 </div>
 </div>
 </div>
@@ -198,7 +200,6 @@ Apocalypse for only 0.2 eth
                             <div className='photo'>
                                 <div className='photo-holder'><img alt="" src="img/chels.png" /></div>
                                 <div className='line2' style={{'display': 'none'}}>
-                                    <p>Chels</p>
                                     <p>MetaBrains of the project, Bitcoin class of 2017, NFT collector, and addicted to learning, experimenting and adventures.</p> 
                                     <p>Chels is well-educated in behavioural economics, psychology, and finance.</p>
                                 </div>
@@ -213,7 +214,6 @@ Apocalypse for only 0.2 eth
                             <div className='photo'>
                                 <div className='photo-holder'><img alt="" src="img/mert.png" /></div>
                                 <div className='line2' style={{'display': 'none'}}>
-                                    <p>Mert</p>
                                     <p>An up-and-coming artist from Turkey that leads the designing for the website and the second collection. His full profile will be revealed on 21st of October.</p>
 
                                 </div>
@@ -226,7 +226,6 @@ Apocalypse for only 0.2 eth
                             <div className='photo'>
                                 <div className='photo-holder'><img alt="" src="img/suraj.png" /></div>
                                 <div className='line2' style={{'display': 'none'}}>
-                                    <p>Suraj</p>
                                     <p>Everything Blockchain</p>
                                     <p>Blockchain & smart contract wizard, a scientist, and the director of Appsus UK. Yes, he’s THE legend that created the NFT image generator FREE for everyone to use.</p>
                                     <p>He’s also a valuable contributor on reddit discord for r/NFTcommunity.</p>
@@ -240,7 +239,6 @@ Apocalypse for only 0.2 eth
                             <div className='photo'>
                                 <div className='photo-holder'><img alt="" src="img/volodymyr.png" /></div>
                                 <div className='line2' style={{'display': 'none'}}>
-                                    <p>Volodymyr</p>
                                     <p>Website Developer</p>
                                     <p>Self-educated Website Developer from Ukraine that has been on the internet since 1994. He specializes mostly on web development.</p>
                             </div>
@@ -254,7 +252,6 @@ Apocalypse for only 0.2 eth
                             <div className='photo'>
                                 <div className='photo-holder'><img alt="" src="img/tracy.png" /></div>
                                 <div className='line2' style={{'display': 'none'}}>
-                                    <p>Tracy</p>
                                     <p>Tracy is a high-profile international award-winning publicist, and Universal Women's Network 2020 Woman of Inspiration Winner for the Women in Media award.</p>
                                     <p>She is Featured in Rolling Stone Magazine, The Hollywood Times, NBC TV, and other major media.</p>
                             </div>
@@ -268,7 +265,6 @@ Apocalypse for only 0.2 eth
                             <div className='photo'>
                                 <div className='photo-holder'><img alt="" src="img/isabel.png" /></div>
                                 <div className='line2' style={{'display': 'none'}}>
-                                    <p>Isabella</p>
                                     <p>Isabel is our Performance Marketing Manager with 3+ years experience in managing successful campaigns and generating real results for clients.</p>
                                     <p>She is performance-based, passionate, and a driven digital marketer who thinks big and always testing new channels to acquire more customers.</p>
                             </div>
@@ -282,7 +278,6 @@ Apocalypse for only 0.2 eth
                             <div className='photo'>
                                 <div className='photo-holder'><img alt="" src="img/sam.png" /></div>
                                 <div className='line2' style={{'display': 'none'}}>
-                                    <p>Sam</p>
                                     <p>Sam has been in the crypto gaming space since 2020 and is a football fanatic.</p>
                                     <p>He's an award winning game designer and he currently lives in Japan.</p>
                             </div>
@@ -296,7 +291,6 @@ Apocalypse for only 0.2 eth
                             <div className='photo'>
                                 <div className='photo-holder'><img alt="" src="img/rio.png" /></div>
                                 <div className='line2' style={{'display': 'none'}}>
-                                    <p>Rio</p>
                                     <p>Talented Artist from Indonesia that illustrated KwyptoKado.</p>
                             </div>
 

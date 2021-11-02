@@ -5,6 +5,8 @@ import Header from '../components/Header'
 import Content from '../components/Content'
 import Footer from '../components/Footer'
 import Jslibrary from '../components/jsLibrary'
+import jQuery from 'jquery'
+import * as $ from 'jquery'
 export default function Home() {
   return (
     <div>
@@ -13,6 +15,7 @@ export default function Home() {
         <meta name="description" content="" />
         <meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1" />
         <link rel="icon" href="img/favicon-16x16.png" />
+        <link rel="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css" />
       </Head>
       <Header />
       <Content />

@@ -8,6 +8,7 @@ export default function jsLibrary() {
     <>
 <Script src="https://code.jquery.com/jquery-3.6.0.min.js"></Script>
 <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>
+<Script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></Script>
 <Script type="text/javascript" src="/js/system.js"></Script>
 </>
   )

@@ -2,69 +2,102 @@ AOS.init({
 once: true,
 });
 
-// var upgradeTime;
-// var seconds;
+jQuery(function(){
+        jQuery('#menu-header').slicknav({
+            prependTo:'#header-holder',   
+        });
+    });
+(function () {
+  const second = 1000,
+    minute = second * 60,
+    hour = minute * 60,
+    day = hour * 24;
 
-// var countdownTimer;
+  //I'm adding this section so I don't have to keep updating this pen every year :-)
+  //remove this if you don't need it
+  let today = new Date(),
+    dd = String(today.getDate()).padStart(2, "0"),
+    mm = String(today.getMonth() + 1).padStart(2, "0"),
+    yyyy = today.getFullYear(),
+    nextYear = yyyy + 1,
+    dayMonth = "09/30/",
+    launchdate = dayMonth + yyyy;
 
-// (function () {
-//   const second = 1000,
-//     minute = second * 60,
-//     hour = minute * 60,
-//     day = hour * 24;
+  today = mm + "/" + dd + "/" + yyyy;
+    launchdate = "12/30/2021";
+  //end
 
-//   //I'm adding this section so I don't have to keep updating this pen every year :-)
-//   //remove this if you don't need it
-//   let today = new Date(),
-//     dd = String(today.getDate()).padStart(2, "0"),
-//     mm = String(today.getMonth() + 1).padStart(2, "0"),
-//     yyyy = today.getFullYear(),
-//     nextYear = yyyy + 1,
-//     dayMonth = "09/30/",
-//     birthday = dayMonth + yyyy;
+  const countDown = new Date(launchdate).getTime(),
+    x = setInterval(function () {
+      const now = new Date().getTime(),
+        distance = countDown - now;
+        
+        let days = Math.floor(distance / day);
+        let hours = Math.floor((distance % day)/hour);
+        let minutes = Math.floor((distance % hour)/minute);
+        let seconds = Math.floor((distance % minute)/second);
+        if(days<10){
+            days = '0'+ days;
+        }
 
-//   today = mm + "/" + dd + "/" + yyyy;
-//   if (today > birthday) {
-//     birthday = dayMonth + nextYear;
-//   }
-//   //end
+        if(hours<10){
+            hours = '0'+ hours;
+        }
 
-//   const countDown = new Date(birthday).getTime(),
-//     x = setInterval(function () {
-//       const now = new Date().getTime(),
-//         distance = countDown - now;
+        if(minutes<10){
+            minutes = '0'+ minutes;
+        }
 
-//       (document.getElementById("days").innerText = Math.floor(distance / day)),
-//       (document.getElementById("days1").innerText = Math.floor(distance / day)),
-//         (document.getElementById("hours").innerText = Math.floor(
-//           (distance % day) / hour
-//         )),
-//         (document.getElementById("hours1").innerText = Math.floor(
-//           (distance % day) / hour
-//         )),
-//         (document.getElementById("minutes").innerText = Math.floor(
-//           (distance % hour) / minute
-//         )),
-//         (document.getElementById("minutes1").innerText = Math.floor(
-//           (distance % hour) / minute
-//         )),
-//         (document.getElementById("seconds").innerText = Math.floor(
-//           (distance % minute) / second
-//         )),
-//         (document.getElementById("seconds1").innerText = Math.floor(
-//           (distance % minute) / second
-//         ));
+        if(seconds<10){
+            seconds = '0'+ seconds;
+        }
+      (document.getElementById("days1").innerText = days),
+    
+        (document.getElementById("hours1").innerText = hours),
+    
+        (document.getElementById("minutes1").innerText = minutes),
+    
+        (document.getElementById("seconds1").innerText = seconds);
 
-//       //do something later when date is reached
-//       if (distance < 0) {
-//         document.getElementById("headline").innerText = "It's my birthday!";
-//         document.getElementById("countdown").style.display = "none";
-//         document.getElementById("content").style.display = "block";
-//         clearInterval(x);
-//       }
-//       //seconds
-//     }, 0);
-// })();
+      //seconds
+    }, 0);
+
+    y = setInterval(function () {
+        const now_1 = new Date().getTime(),
+        distance_1 = countDown - now_1;
+
+        let days = Math.floor(distance_1 / day);
+        let hours = Math.floor((distance_1 % day)/hour);
+        let minutes = Math.floor((distance_1 % hour)/minute);
+        let seconds = Math.floor((distance_1 % minute)/second);
+
+        if(days<10){
+            days = '0'+ days;
+        }
+
+        if(hours<10){
+            hours = '0'+ hours;
+        }
+        
+        if(minutes<10){
+            minutes = '0'+ minutes;
+        }
+
+        if(seconds<10){
+            seconds = '0'+ seconds;
+        }
+      (document.getElementById("days").innerText = days),
+     
+        (document.getElementById("hours").innerText = hours),
+        
+        (document.getElementById("minutes").innerText = minutes),
+        
+        (document.getElementById("seconds").innerText = seconds);
+        
+
+      //seconds
+    }, 0);
+})();
 
 const ethereumButton = document.querySelector('.enableEthereumButton');
 
