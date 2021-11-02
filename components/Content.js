@@ -19,7 +19,8 @@ Public sale 21st Nov 7pm est</p>
 <video controls="" name="media" autoPlay loop muted><source src="img/apocalypse-banner.mp4" type="video/mp4" /></video>
 </div>
 <div id="content-area" className='wrapper'>
-<div className='container' id="about">
+<div className='scroll-space' id="about"></div>
+<div className='container'>
 <h2 data-aos="fade-up">Who is KwyptoLand?</h2>
 <p data-aos="fade-up" data-aos-delay="300">Kwyptoland is an innovative sandbox collective that is created by a rag tag team of crypto enthusiasts, up-and-coming artists, tech geeks, and you, our community member. We’re made for everyone that creates and aims to be building projects in the crypto world.</p>
 <p data-aos="fade-up" data-aos-delay="500">Our team came from all over the world, with different credentials and passions but with the same shared goal - <strong>future proofing our world</strong>.</p>
@@ -95,7 +96,7 @@ Apocalypse for only 0.2 eth
 </div>
 </div>
 </div>
-
+<div className='scroll-space' id="roadmap-wrap"></div>
 <div className='wrapper'>
             <div className='container' style={{'font-size': '13px', 'font-weight': '300'}}>
 <h2 data-aos="fade-up">Roadmap</h2>
@@ -191,8 +192,8 @@ Apocalypse for only 0.2 eth
             </div>
 
 </div>
-
-<div className='wrapper' id='team'>
+<div className='scroll-space' id='team'></div>
+<div className='wrapper'>
             <div className='container'>
                 <h2 data-aos="fade-up">Team</h2>
                     <div className='team-holder'>
@@ -304,7 +305,8 @@ Apocalypse for only 0.2 eth
             </div>
 
 </div>
-<div className='wrapper' id="mint">
+<div className='scroll-space' id="mint"></div>
+<div className='wrapper'>
     <div className='container'>
         <h2 data-aos="fade-up">Fair Distribution & Efficient Minting</h2>
         <p data-aos="fade-up" data-aos-delay="300"><strong>9999 Army of Apocalypse cost 0.2 Eth to mint, and will be revealed once 100% of the minting is complete.</strong></p>

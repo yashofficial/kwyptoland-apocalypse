@@ -1,4 +1,5 @@
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Scrollspy from 'react-scrollspy'
 export default function Header() {
   return (
 <header>
@@ -13,11 +14,13 @@ export default function Header() {
 <a href="https://twitter.com/KwyptoLand" target="_blank" rel="noreferrer" className='twitter-icon'><img src="/img/twitter.svg" alt="" /><span>Twitter</span></a>
 <a href="https://www.instagram.com/kwyptoland/" target="_blank" rel="noreferrer" className='instagram-icon'><img src="/img/instagram.svg" alt="" /><span>Instagram</span></a>
 </div>
-<AnchorLink href="#glitch-banner"  rel="noopener" data-id="home" className='active' scrollOffset="100">Home</AnchorLink>
-<AnchorLink href="#about"  rel="noopener" data-id="about" scrollOffset="100">About</AnchorLink>
-<AnchorLink href="#roadmap"  data-id="roadmap" scrollOffset="100" >Roadmap</AnchorLink>
+<Scrollspy items={ ['glitch-banner', 'about', 'roadmap-wrap', 'team', 'mint'] } currentClassName="active" >
+<AnchorLink href="#glitch-banner"  scrollOffset="100" rel="noopener" data-id="home">Home</AnchorLink>
+<AnchorLink href="#about" scrollOffset="100" rel="noopener" data-id="about">About</AnchorLink>
+<AnchorLink href="#roadmap-wrap"  rel="noopener" data-id="roadmap">Roadmap</AnchorLink>
 <AnchorLink href="#team"  rel="noopener" data-id="team">Team</AnchorLink>
 <AnchorLink href="#mint"  rel="noopener" data-id="mint">Mint</AnchorLink>
+</Scrollspy> 
 <a href="https://metamask.io" target="_blank" rel="noreferrer" className='enableEthereumButton yellow-button'>Connect Wallet</a>
 </div>
 </div>

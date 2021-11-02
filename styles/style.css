@@ -207,18 +207,22 @@ a {
     flex: 1;
     align-items: center;
 }
-#menu-header > a:nth-child(1), #menu-header > a:nth-child(2) {
+#menu-header > ul > a:nth-child(1), #menu-header > ul > a:nth-child(2) {
     margin-right: 45px;
 }
-#menu-header > a {
+#menu-header > ul {
+    margin: 0;
+    padding: 0;
+}
+#menu-header > ul > a {
     line-height: 18px;
     display: inline-block;
     cursor: pointer;
     text-transform: uppercase;
     font-size: 14px;
 }
-#menu-header > a.active {color: #FFFF05;}
-#menu-header > a:nth-child(3), #menu-header > a:nth-child(4), #menu-header > a:nth-child(5), #menu-header > a:nth-child(6), #menu-header > a:nth-child(7), #menu-header > a:nth-child(8) {
+#menu-header > ul > a.active {color: #FFFF05;}
+#menu-header > ul a:nth-child(3), #menu-header > ul > a:nth-child(4), #menu-header > ul > a:nth-child(5), #menu-header > ul > a:nth-child(6), #menu-header > ul > a:nth-child(7), #menu-header > ul > a:nth-child(8) {
     margin-right: 45px;
 }
 #menu-header > a > img {
@@ -253,6 +257,7 @@ a {
 .yellow-button:hover::after {
   animation: glitch-test 2s infinite linear alternate;
 }
+.scroll-space {display: flex;width: 100%;margin: -92px 0 0px;padding: 0px 0 92px;}
 div#glitch-banner {padding-top: 0em;overflow: hidden;position: relative;z-index: 0;height: 100%;max-height: 105vh;padding: 0;}
 div#glitch-banner:after {content: '';background: url(/img/glitch-overlay-bg.svg) no-repeat bottom center;background-size: 100%;display: block;position: absolute;top: 0px;left: 0;right: 0;width: 100%;z-index: 0;height: 100%;} 
 div#glitch-banner canvas#canvas-webgl {height: 130vh !important;}
@@ -454,7 +459,8 @@ div#glitch-banner video {width: 100%;}
 .sticky-header #header-holder .slicknav_menu .slicknav_btn.slicknav_open {top: 15px;}
 #header-holder .slicknav_menu .slicknav_nav.slicknav_hidden {right: -100%;}
 #header-holder .slicknav_menu .slicknav_nav {display: flex;flex-wrap: wrap;align-items: center;justify-content: flex-start;position: fixed;right: 0;top: 0;background: #7a1128;width: 100%;height: 100vh !important;padding: 80px 20px 20px 20px;z-index: 99;transition: all .3s;}
-#header-holder .slicknav_menu .slicknav_nav > a:not(:last-child) {display: block;width: 100%;margin: 0 auto;text-align: center;font-size: 2.5rem;}
+#header-holder .slicknav_menu .slicknav_nav ul {width: 100%;height: 100%;max-height: 400px;display: flex;flex-wrap: wrap;}
+#header-holder .slicknav_menu .slicknav_nav ul > a {display: block;width: 100%;margin: 0 auto 20px;text-align: center;font-size: 2.5rem;}
 #header-holder .slicknav_menu .slicknav_nav > a.yellow-button {margin: 0 auto;}
 #header-holder .slicknav_menu .slicknav_nav > a.yellow-button:after {background-image: url(/img/dark-red-border.svg);}
 #header-holder .slicknav_menu .slicknav_nav .social-icons {display: flex;flex-wrap: wrap;align-items: center;justify-content: center;order: 12;width: 100%;border-top: 1px solid #660b1f;padding: 20px 0 0;margin: 20px auto 0;}
@@ -531,6 +537,9 @@ div#glitch-banner .banner-caption .button-box .yellow-button:last-child {margin:
 .roadmap-left .roadmap-point h3, .roadmap-right .roadmap-point h3 {font-size: 16px;}
 #header-holder .slicknav_menu .slicknav_nav {padding:  80px 10px 20px 10px;}
 #header-holder .slicknav_menu .slicknav_nav .social-icons a {margin: 0 10px;}
+#header-holder .slicknav_menu .slicknav_nav {padding: 60px 10px 20px 10px;}
+#header-holder .slicknav_menu .slicknav_nav ul {max-height: 280px;}
+#header-holder .slicknav_menu .slicknav_nav ul > a {font-size: 1.5rem;}
 }
 @media screen and (max-width: 320px) {
 #header-holder .slicknav_menu .slicknav_nav .social-icons img {max-width: 20px;}
