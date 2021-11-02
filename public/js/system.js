@@ -29,7 +29,8 @@ jQuery('.center').slick({
 });
 jQuery(function(){
         jQuery('#menu-header').slicknav({
-            prependTo:'#header-holder',   
+            prependTo:'#header-holder',
+            closeOnClick:    'false'   
         });
     });
 jQuery(window).scroll(function(){
