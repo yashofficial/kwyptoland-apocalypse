@@ -230,7 +230,7 @@ a {
     width: 16px;
     vertical-align: middle;
 }
-#menu-header > a.yellow-button {line-height: 60px;display: block;width: 240px;text-align: center;margin: 0 0 0 30px;min-height: 60px;}
+#menu-header > a.yellow-button {line-height: 60px;display: block;width: 240px;text-align: center;margin: 0 0 0 30px;min-height: 60px;cursor: pointer;text-transform: uppercase;font-size: 14px;}
 #menu-header .social-icons {position: fixed;bottom: 25px;left: 10px;z-index: 99;background: #e7e8ea;padding: 10px 5px;border-radius: 50px;}
 #menu-header .social-icons a {display: block;margin: 0px 0px;padding: 0px;background: #7a1128;width: 45px;height: 45px;text-align: center;line-height: 55px;border-radius: 45px;transition: all .3s;position: relative;}
 #menu-header .social-icons a:last-child {line-height: 60px;}
