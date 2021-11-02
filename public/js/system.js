@@ -1,7 +1,15 @@
 AOS.init({
 once: true,
 });
-
+$('.center').slick({
+  dots: true,
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  adaptiveHeight: true,
+  autoplay: true,
+  autoplaySpeed: 3000,
+});
 jQuery(function(){
         jQuery('#menu-header').slicknav({
             prependTo:'#header-holder',   

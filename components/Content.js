@@ -336,24 +336,16 @@ Apocalypse for only 0.2 eth
 <div className='wrapper' id="featured-in">
     <div className='container'>
         <h2 data-aos="fade-up">As featured In</h2>
-        <ul data-aos="fade-up" data-aos-delay="300">
-            <li><img src="img/yahoo.png" alt="" /></li>
-            <li><img src="img/ticker.png" alt="" /></li>
-            <li><img src="img/marketwatch.png" alt="" /></li>
-            <li><img src="img/googlenews.png" alt="" /></li>
-            <li><img src="img/benzinga.png" alt="" /></li>
-            <li><img src="img/bilibili.png" alt="" /></li>
-            <li><img src="img/foxnews@2x.png" alt="" /></li>
-            <li><img src="img/eastmoney.png" alt="" /></li>
-        </ul>
-        <div className='autoplay'>
-  <div><h3>1</h3></div>
-  <div><h3>2</h3></div>
-  <div><h3>3</h3></div>
-  <div><h3>4</h3></div>
-  <div><h3>5</h3></div>
-  <div><h3>6</h3></div>
-</div>
+        <div data-aos="fade-up" data-aos-delay="300" className='center'>
+            <div><img src="img/yahoo.png" alt="" /></div>
+            <div><img src="img/ticker.png" alt="" /></div>
+            <div><img src="img/marketwatch.png" alt="" /></div>
+            <div><img src="img/googlenews.png" alt="" /></div>
+            <div><img src="img/benzinga.png" alt="" /></div>
+            <div><img src="img/bilibili.png" alt="" /></div>
+            <div><img src="img/foxnews@2x.png" alt="" /></div>
+            <div><img src="img/eastmoney.png" alt="" /></div>
+        </div>
         <p>And many more...</p>
     </div>
 </div>
