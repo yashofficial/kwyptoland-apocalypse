@@ -2,7 +2,6 @@ AOS.init({
 once: true,
 });
 
-<<<<<<< HEAD
 jQuery(function(){
         jQuery('#menu-header').slicknav({
             prependTo:'#header-holder',   
@@ -99,7 +98,6 @@ jQuery(function(){
       //seconds
     }, 0);
 })();
-=======
 
 // var upgradeTime;
 // var seconds;
@@ -164,7 +162,6 @@ jQuery(function(){
 //       //seconds
 //     }, 0);
 // })();
->>>>>>> 07fdfe247c32bc5d579a4a11c6aafed851d19e82
 
 const ethereumButton = document.querySelector('.enableEthereumButton');
 
