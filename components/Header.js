@@ -12,8 +12,8 @@ export default function Header() {
 <a href="https://twitter.com/KwyptoLand" target="_blank" rel="noreferrer" className='twitter-icon'><img src="/img/twitter.svg" alt="" /><span>Twitter</span></a>
 <a href="https://www.instagram.com/kwyptoland/" target="_blank" rel="noreferrer" className='instagram-icon'><img src="/img/instagram.svg" alt="" /><span>Instagram</span></a>
 </div>
-<a onClick="scrollto('#home');" rel="noopener">Home</a>
-<a onClick="scrollto('#about');" rel="noopener">About</a>
+<a href="#home" rel="noopener">Home</a>
+<a href="#about" rel="noopener">About</a>
 <a onClick="scrollto('#roadmap');" rel="noopener">Roadmap</a>
 <a onClick="scrollto('#team');" rel="noopener">Team</a>
 <a onClick="scrollto('#mint');" rel="noopener">Mint</a>

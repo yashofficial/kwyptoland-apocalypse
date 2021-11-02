@@ -32,6 +32,14 @@ jQuery(function(){
             prependTo:'#header-holder',   
         });
     });
+jQuery(window).scroll(function(){
+  if (jQuery(window).scrollTop() >= 40) {
+    jQuery('#custom-header').addClass('sticky-header');
+   }
+   else {
+    jQuery('#custom-header').removeClass('sticky-header');
+   }
+});
 (function () {
   const second = 1000,
     minute = second * 60,

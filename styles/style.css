@@ -188,6 +188,7 @@ a {
 }
 .container {width: 100%;margin: 0 auto;max-width: 1320px;padding: 0 20px;box-sizing: border-box;}
 #custom-header {position: absolute;top: 0;left: 0;right: 0;padding: 2em 0;z-index: 999;}
+#custom-header.sticky-header {position: fixed;width: 100%;background: #111111;padding: 1em 0;box-shadow: 0 3px 15px 0 rgb(0 0 0 / 25%);}
 .space-box:after {margin: 8em auto;clear: both;content: '';display: block;}
 #header-holder {
     display: flex;
@@ -446,15 +447,16 @@ div#glitch-banner video {width: 100%;}
 @media screen and (max-width: 991px) {
 #header-holder .slicknav_menu {display: block;margin: 0 0 0 auto;}
 #header-holder #menu-header {display: none;}
-#header-holder .slicknav_menu .slicknav_btn {position: relative;z-index: 999;display: block;}
-#header-holder .slicknav_menu .slicknav_btn.slicknav_open {position: fixed;right: 20px;}
+#header-holder .slicknav_menu .slicknav_btn {position: relative;z-index: 999;display: block;top: 5px;}
+#header-holder .slicknav_menu .slicknav_btn.slicknav_open {position: fixed;right: 20px;top: 35px;}
+.sticky-header #header-holder .slicknav_menu .slicknav_btn.slicknav_open {top: 15px;}
 #header-holder .slicknav_menu .slicknav_nav.slicknav_hidden {right: -100%;}
 #header-holder .slicknav_menu .slicknav_nav {display: flex;flex-wrap: wrap;align-items: center;justify-content: flex-start;position: fixed;right: 0;top: 0;background: #7a1128;width: 100%;height: 100vh !important;padding: 80px 20px 20px 20px;z-index: 99;transition: all .3s;}
 #header-holder .slicknav_menu .slicknav_nav > a:not(:last-child) {display: block;width: 100%;margin: 0 auto;text-align: center;font-size: 2.5rem;}
 #header-holder .slicknav_menu .slicknav_nav > a.yellow-button {margin: 0 auto;}
 #header-holder .slicknav_menu .slicknav_nav > a.yellow-button:after {background-image: url(/img/dark-red-border.svg);}
 #header-holder .slicknav_menu .slicknav_nav .social-icons {display: flex;flex-wrap: wrap;align-items: center;justify-content: center;order: 12;width: 100%;border-top: 1px solid #660b1f;padding: 20px 0 0;margin: 20px auto 0;}
-#header-holder .slicknav_menu .slicknav_nav .social-icons:before {content: 'Follow us On:'; font: 14px;}
+#header-holder .slicknav_menu .slicknav_nav .social-icons:before {content: 'Follow us On:'; font-size: 14px;}
 #header-holder .slicknav_menu .slicknav_nav .social-icons a {margin: 0 20px;text-align: center;}
 #header-holder .slicknav_menu .slicknav_nav .social-icons a span {display: block;font-size: 12px;margin: 5px auto 0;font-weight: 600;}
 #header-holder .slicknav_menu .slicknav_nav .social-icons img {max-width: 35px;width: 100%;}
@@ -525,6 +527,8 @@ div#glitch-banner .banner-caption h1 {font-size: 28px;}
 div#glitch-banner .banner-caption .button-box .yellow-button:last-child {margin: 2em 0 0 0;}
 .roadmap-point {height: 100vh;}
 .roadmap-left .roadmap-point h3, .roadmap-right .roadmap-point h3 {font-size: 16px;}
+#header-holder .slicknav_menu .slicknav_nav {padding:  80px 10px 20px 10px;}
+#header-holder .slicknav_menu .slicknav_nav .social-icons a {margin: 0 10px;}
 }
 @media screen and (max-width: 320px) {
 #header-holder .slicknav_menu .slicknav_nav .social-icons img {max-width: 20px;}
