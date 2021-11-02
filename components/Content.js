@@ -6,8 +6,8 @@ export default function Content() {
 <div className='container'>
 <h1 data-aos="fade-up">Welcome to KwyptoLand.</h1>
 <p data-aos="fade-up" data-aos-delay="300">A metaverse that is carefully curated for the fun that exists on the<br />Ethereum blockchain, forever…</p>
-<h2 data-aos="fade-up" data-aos-delay="500">Exclusive whitelisting for certain NFT holders.</h2>
-<p data-aos="fade-up" data-aos-delay="700">Army of Apocalypse important dates<br />
+<h2 data-aos="fade-up" data-aos-delay="350">Exclusive whitelisting for certain NFT holders.</h2>
+<p data-aos="fade-up" data-aos-delay="400">Army of Apocalypse important dates<br />
 Exclusive whitelist sale for KwyptoKado holders 21st Nov 5pm est<br />
 Public sale 21st Nov 7pm est</p>
 <div className='button-box'  data-aos="fade-up">
