@@ -352,7 +352,7 @@ Apocalypse for only 0.2 eth
             <li><img src="img/foxnews@2x.png" alt="" /></li>
             <li><img src="img/eastmoney.png" alt="" /></li>
         </ul>
-        <div className='slider'data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+        <div className='autoplay'>
   <div><h3>1</h3></div>
   <div><h3>2</h3></div>
   <div><h3>3</h3></div>
