@@ -52,7 +52,7 @@ function scrollRotate() {
 }
 document.addEventListener('keydown', function() {
   if (event.keyCode == 123) {
-    alert("This function has been disabled to prevent you from stealing my code!");
+    //alert("This function has been disabled to prevent you from stealing my code!");
     return false;
   } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
     //alert("This function has been disabled to prevent you from stealing my code!");
