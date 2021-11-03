@@ -1,4 +1,21 @@
+import emailjs from 'emailjs-com'
 export default function Footer() {
+const handleSubmit = (e) => {
+    e.preventDefault();
+    const data = new FormData(e.target);
+    let email = data.get('email');
+    console.log(data.get('email')); // reference by form input's `name` tag
+
+        emailjs.sendForm(
+          'service_5mhf9nn','template_gveagd1', e.target,
+          'user_bRAa8VLPHXfafJyFyFUqa'
+        )
+      .then(function(response) {
+         console.log('SUCCESS!', response.status, response.text);
+      }, function(err) {
+         console.log('FAILED...', err);
+      });
+  }
   return (
 <footer>
 <div className='space-box'></div>
@@ -18,12 +35,13 @@ export default function Footer() {
   <div className='modal-content'>
     <span className='close' id="close">&times;</span>
     <p style={{'text-align': 'center', 'font-size': '2em'}}>Subscribe for VIP updates</p>
-        <input type="text" placeholder="email@domain.com" id="email" />
-        <br />
-        <a className='yellow-button' style={{'margin': '30px 0 0'}} onClick="subscribe();" id="subscribe">Subscribe</a>
-        <p id="status" style={{'margin-bottom': '20px', 'color': '#ffff2e', 'font-weight': '300'}}></p>
+        <form onSubmit={handleSubmit}>
+          <input type="text" placeholder="email@domain.com" id="email" />
+          <br />
+          <button type="submit" className='yellow-button' style={{'margin': '30px 0 0', 'background': 'transparent', 'border': 'none'}}  id="subscribe" name="Subscribe">Subscribe</button>
+          <p id="status" style={{'margin-bottom': '20px', 'color': '#ffff2e', 'font-weight': '300'}}></p>
+        </form>  
   </div>
-
 </div>
     </footer>
   )
