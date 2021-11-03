@@ -70,7 +70,7 @@ Public sale 21st Nov 7pm est</p>
 <div className='container'>
 <div className='flex-box'>
 <div className='img-container'>
-<img src="img/fire-horse-img.svg" alt="" className='rotating-img' />
+<img src="img/fire-horse-img.svg" alt="" className='rotating-img' id="image-rotation" />
 </div>
 <div className='content-container'>
 <h2 data-aos="fade-up" data-aos-delay="200">Mint your Army of 

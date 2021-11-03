@@ -459,7 +459,7 @@ div#glitch-banner video {width: 100%;}
 .sticky-header #header-holder .slicknav_menu .slicknav_btn.slicknav_open {top: 15px;}
 #header-holder .slicknav_menu .slicknav_nav.slicknav_hidden {right: -100%;}
 #header-holder .slicknav_menu .slicknav_nav {display: flex;flex-wrap: wrap;align-items: center;justify-content: flex-start;position: fixed;right: 0;top: 0;background: #7a1128;width: 100%;height: 100vh !important;padding: 80px 20px 20px 20px;z-index: 99;transition: all .3s;}
-#header-holder .slicknav_menu .slicknav_nav ul {width: 100%;height: 100%;max-height: 400px;display: flex;flex-wrap: wrap;}
+#header-holder .slicknav_menu .slicknav_nav ul {width: 100%;height: 100%;max-height: 400px;display: flex;flex-wrap: wrap;padding: 0;}
 #header-holder .slicknav_menu .slicknav_nav ul > a {display: block;width: 100%;margin: 0 auto 20px;text-align: center;font-size: 2.5rem;}
 #header-holder .slicknav_menu .slicknav_nav > a.yellow-button {margin: 0 auto;}
 #header-holder .slicknav_menu .slicknav_nav > a.yellow-button:after {background-image: url(/img/dark-red-border.svg);}

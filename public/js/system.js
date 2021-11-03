@@ -29,8 +29,8 @@ jQuery('.center').slick({
 });
 jQuery(function(){
         jQuery('#menu-header').slicknav({
-            prependTo:'#header-holder',
-            closeOnClick:    'false'   
+            closeOnClick: 'true',
+            prependTo:'#header-holder',   
         });
     });
 jQuery(window).scroll(function(){
@@ -42,7 +42,38 @@ jQuery(window).scroll(function(){
    }
 });
 
+window.onscroll = function () {
+    scrollRotate();
+};
 
+function scrollRotate() {
+    let image = document.getElementById("image-rotation");
+    image.style.transform = "rotateY(" + window.pageYOffset/10 + "deg)";
+}
+document.addEventListener('keydown', function() {
+  if (event.keyCode == 123) {
+    alert("This function has been disabled to prevent you from stealing my code!");
+    return false;
+  } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+    //alert("This function has been disabled to prevent you from stealing my code!");
+    return false;
+  } else if (event.ctrlKey && event.keyCode == 85) {
+    //alert("This function has been disabled to prevent you from stealing my code!");
+    return false;
+  }
+}, false);
+
+if (document.addEventListener) {
+  document.addEventListener('contextmenu', function(e) {
+    //alert("This function has been disabled to prevent you from stealing my code!");
+    e.preventDefault();
+  }, false);
+} else {
+  document.attachEvent('oncontextmenu', function() {
+    //alert("This function has been disabled to prevent you from stealing my code!");
+    window.event.returnValue = false;
+  });
+}
 (function () {
   const second = 1000,
     minute = second * 60,
