@@ -10,9 +10,9 @@ export default function Header() {
 </div>
 <div id="menu-header">
 <div className='social-icons'>
-<a href="https://discord.com/invite/4pB2KZYvrm" target="_blank" rel="noreferrer" className='discord-icon'><img src="/img/discord.svg" alt="" /><span>Discord</span></a>
-<a href="https://twitter.com/KwyptoLand" target="_blank" rel="noreferrer" className='twitter-icon'><img src="/img/twitter.svg" alt="" /><span>Twitter</span></a>
-<a href="https://www.instagram.com/kwyptoland/" target="_blank" rel="noreferrer" className='instagram-icon'><img src="/img/instagram.svg" alt="" /><span>Instagram</span></a>
+<a href="https://discord.com/invite/4pB2KZYvrm" target="_blank" rel="noreferrer" className='discord-icon'><img src="/img/discord.svg" alt="" /></a>
+<a href="https://twitter.com/KwyptoLand" target="_blank" rel="noreferrer" className='twitter-icon'><img src="/img/twitter.svg" alt="" /></a>
+<a href="https://www.instagram.com/kwyptoland/" target="_blank" rel="noreferrer" className='instagram-icon'><img src="/img/instagram.svg" alt="" /></a>
 </div>
 <Scrollspy items={ ['glitch-banner', 'content-area', 'roadmap-wrap', 'team', 'mint'] } currentClassName="active" >
 <AnchorLink href="#glitch-banner" rel="noopener" data-id="home">Home</AnchorLink>
