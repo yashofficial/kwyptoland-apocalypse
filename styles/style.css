@@ -472,6 +472,9 @@ Media Query
 @media screen and (min-width: 1600px) {
 div#glitch-banner video {width: 100%;}
 }
+@media screen and (max-width: 1360px) and (min-width1200px) {
+div#glitch-banner {max-height: 110vh;}
+}
 @media screen and (max-width: 1360px) {
 footer #footer {background-size: cover;}
 }
