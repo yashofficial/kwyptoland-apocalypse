@@ -245,7 +245,7 @@ a {
 #menu-header .social-icons a.instagram-icon {background-color: #E1306C;}
 .yellow-button {color: #FFFF05;position: relative;z-index: 0;transition: all .3s;min-width: 240px;width: fit-content;text-align: center;display: block;min-height: 60px;line-height: 60px;text-transform: uppercase;}
 .yellow-button:before {content: '';background: url(/img/yellow-border.svg) no-repeat center center;background-size: 100%;display: block;position: absolute;top: 0px;left: 0;right: 0;width: 240px;z-index: -1;height: 60px;}
-.yellow-button:after {content: '';background: url(/img/red-border.svg) no-repeat center center;background-size: 100%;display: block;position: absolute;top: 7px;left: 5px;right: 0;width: 240px;z-index: -2;height: 60px;transition: all .3s;}
+.yellow-button:after {content: '';background: url(/img/red-border.svg) no-repeat center center;background-size: 100%;display: block;position: absolute;top: 7px;left: 5px;right: 0;width: 240px;z-index: -2;height: 60px;transition: all .3s;pointer-events: none;}
 .yellow-button.dark-bdr:after {background-image: url(/img/dark-red-border.svg);}
 /*.yellow-button:hover, .yellow-button:focus {transform: translateY(-5px);}*/
 .yellow-button:hover, .yellow-button:focus {
@@ -430,7 +430,7 @@ ROADMAP CSS CLOSE
 #footer ul li .social-icons a img {width: 35px;}
 .white-button {color: #FFFFFF;position: relative;z-index: 0;transition: all .3s;min-width: 240px;width: fit-content;text-align: center;display: block;min-height: 60px;line-height: 60px;}
 .white-button:before {content: '';background: url(/img/white-border.svg) no-repeat center center;background-size: 100%;display: block;position: absolute;top: 0px;left: 0;right: 0;width: 240px;z-index: -1;height: 60px;}
-.white-button:after {content: '';background: url(/img/black-border.svg) no-repeat center center;background-size: 100%;display: block;position: absolute;top: 7px;left: 5px;right: 0;width: 240px;z-index: -2;height: 60px;transition: all .3s;}
+.white-button:after {content: '';background: url(/img/black-border.svg) no-repeat center center;background-size: 100%;display: block;position: absolute;top: 7px;left: 5px;right: 0;width: 240px;z-index: -2;height: 60px;transition: all .3s;pointer-events: none;}
 .white-button:hover, .white-button:focus {
   /*-webkit-animation: burn 1000ms ease-out forwards;
           animation: burn 1000ms ease-out forwards;*/
