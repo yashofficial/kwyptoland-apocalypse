@@ -472,6 +472,9 @@ Media Query
 @media screen and (min-width: 1600px) {
 div#glitch-banner video {width: 100%;}
 }
+@media screen and (min-width: 1360px) {
+footer #footer {background-size: cover;}
+}
 @media screen and (max-width: 1280px) {
 .team-holder {justify-content: flex-start;}
 .team-member {flex-basis: 28%;margin: 0 1% 60px;}
