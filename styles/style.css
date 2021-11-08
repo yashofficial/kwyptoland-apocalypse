@@ -254,7 +254,7 @@ a {
           color: #111111;
 
 }
-.yellow-button:hover::before {
+.yellow-button:hover::before, .yellow-button:focus::before {
   /*animation: glitch-test 1.5s infinite linear alternate-reverse;*/
   background-color: #ffff05;
     -webkit-mask-image: url(/img/yellow-border-fill.svg);
@@ -266,7 +266,7 @@ a {
     mask-repeat: no-repeat;
     mask-size: contain;
 }
-.yellow-button:hover::after {
+.yellow-button:hover::after, .yellow-button:focus::after {
   /*animation: glitch-test 2s infinite linear alternate;*/
   top: 0;
   left: 0;
@@ -434,7 +434,7 @@ ROADMAP CSS CLOSE
           animation: burn 1000ms ease-out forwards;*/
           color: #111111;
 }
-.white-button:hover::before {
+.white-button:hover::before, .white-button:focus::before {
   /*animation: glitch-test 2s infinite linear alternate;*/
   background-color: #ffffff;
     -webkit-mask-image: url(/img/white-border-fill.svg);
@@ -446,7 +446,7 @@ ROADMAP CSS CLOSE
     mask-repeat: no-repeat;
     mask-size: contain;
 }
-.white-button:hover::after {
+.white-button:hover::after, .white-button:focus::after {
   /*animation: glitch-test 2s infinite linear alternate;*/
   top: 0;
   left: 0;
