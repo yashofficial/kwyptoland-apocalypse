@@ -46,7 +46,7 @@ Public sale 21st Nov 7pm est</p>
 
                 <div className='what-block' data-aos="flip-left" data-aos-delay="400">
                     <div className='image-block' style={{'background-color': '#FEFF2E'}}>
-                        <img alt="" src="img/speed.png" />
+                        <img alt="" src="img/speed.gif" />
                     </div>
                     <div className='line1'>Speed</div>
                     <div className='line2'>Minting begins 21st Nov.</div>
