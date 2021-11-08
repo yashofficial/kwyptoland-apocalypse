@@ -51,7 +51,6 @@ Public sale 21st Nov 7pm est</p>
                     <div className='line1'>Speed</div>
                     <div className='line2'>Minting begins 21st Nov.</div>
                 </div>
-
                 <div className='what-block' data-aos="fade-up" data-aos-delay="500" style={{'font-size': '130px', 'padding': '0 50px 80px 50px'}}>=</div>
 
                 <div className='what-block' data-aos="flip-left" data-aos-delay="700">
