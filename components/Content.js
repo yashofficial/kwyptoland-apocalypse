@@ -58,6 +58,7 @@ Public sale 21st Nov 7pm est</p>
                     <div className='image-block' style={{'background-color': '#FEFF2E'}}>
                         <img alt="" src="img/winner.gif" />
                     </div>
+                    
                     <div className='line1'>Winner</div>
                     <div className='line2'>Ether Footy – The world’s first<br />
                                         NFT football game.<br />
