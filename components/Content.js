@@ -18,8 +18,9 @@ Public sale 21st Nov 7pm est</p>
 </div>
 <video controls="" name="media" autoPlay loop muted><source src="img/apocalypse-banner.mp4" type="video/mp4" /></video>
 </div>
-<div id="content-area" className='wrapper'>
 <div className='scroll-space' id="about"></div>
+<div id="content-area" className='wrapper'>
+
 <div className='container'>
 <h2 data-aos="fade-up">Who is KwyptoLand?</h2>
 <p data-aos="fade-up" data-aos-delay="300">Kwyptoland is an innovative sandbox collective that is created by a rag tag team of crypto enthusiasts, up-and-coming artists, tech geeks, and you, our community member. We’re made for everyone that creates and aims to be building projects in the crypto world.</p>
@@ -63,8 +64,7 @@ Public sale 21st Nov 7pm est</p>
                                         NFT football game.<br />
                                         Releasing 15th Dec.</div>
                 </div>
-
-            </div>
+</div>
 </div>
 <div className='wrapper' id="countdown-area">
 <div className='container'>

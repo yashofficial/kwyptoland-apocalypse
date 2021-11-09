@@ -14,9 +14,9 @@ export default function Header() {
 <a href="https://twitter.com/KwyptoLand" target="_blank" rel="noreferrer" className='twitter-icon'><img src="/img/twitter.svg" alt="" /></a>
 <a href="https://www.instagram.com/kwyptoland/" target="_blank" rel="noreferrer" className='instagram-icon'><img src="/img/instagram.svg" alt="" /></a>
 </div>
-<Scrollspy items={ ['glitch-banner', 'content-area', 'roadmap-wrap', 'team', 'mint'] } currentClassName="active" >
+<Scrollspy items={ ['glitch-banner', 'about', 'roadmap-wrap', 'team', 'mint'] } currentClassName="active" >
 <AnchorLink href="#glitch-banner" rel="noopener" data-id="home">Home</AnchorLink>
-<AnchorLink href="#content-area" scrollOffset="100" rel="noopener" data-id="about">About</AnchorLink>
+<AnchorLink href="#about" rel="noopener" data-id="about">About</AnchorLink>
 <AnchorLink href="#roadmap-wrap"  rel="noopener" data-id="roadmap">Roadmap</AnchorLink>
 <AnchorLink href="#team"  rel="noopener" data-id="team">Team</AnchorLink>
 <AnchorLink href="#mint"  rel="noopener" data-id="mint">Mint</AnchorLink>
